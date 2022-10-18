@@ -9,9 +9,6 @@
 
 
 
-Console.Write("Ведите первое число:  ");
-int a = Convert.ToInt32(Console.ReadLine());
-
 Console.Write("Ведите второе число:  ");
 int b = Convert.ToInt32(Console.ReadLine());
 
