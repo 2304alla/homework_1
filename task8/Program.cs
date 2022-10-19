@@ -17,16 +17,17 @@ else
 {
     int count = -num;
     while (count <= num)
-    
     {
-        if (count % 2 == 0)
+        if (count % 2 == 0 && count>0)
         {
-        Console.Write($"{count}"  );
+            Console.Write($"  {count}"  );
         }
-        
-     else count++;
+        count++;
     }
 
+
+
+}
 
 
 
